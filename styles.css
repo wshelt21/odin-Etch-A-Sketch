@@ -3,12 +3,19 @@
     padding: 0;
 }
 
+.button-container{
+    width: fit-content;
+    margin: 0 auto;
+}
+
 .grid-container{
-    display: flex;
-    width: 500px;
-    min-height: 500px;
+    width: 960px;
+    min-height: 200px;
     margin: 0 auto;
     border: 1px solid black;
+}
+.wrapper{
+    display: flex;
 }
 
 .cell{
@@ -16,6 +23,4 @@
     height: 50px;
     border: 1px solid black;
     background-color: bisque;
-
-
 }
